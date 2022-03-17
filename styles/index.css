@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header__news {
+  padding: 0.25rem 0 0.25rem 0;
+  text-align: center;
+}
+
+.header__navbar__catagories__list {
+  padding: 1rem 10rem 1rem 10rem;
+
+  display: flex;
+  justify-content: space-between;
+
+  background-color: blue;
+
+  list-style: none;
+}
+.header_navbar_categories_list_item {
+  color: white;
+}
+
+.header__navbar__contact__list {
+  padding: 1rem 1rem 1rem 1rem;
+
+  display: flex;
+  justify-content: end;
+
+  background-color: green;
+
+  list-style: none;
+}
+.header__navbar__contact__list_item {
+  padding-right: 2rem;
+}
