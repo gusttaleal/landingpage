@@ -3,10 +3,66 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Page Title</title>
+    <title>Leal&Leal</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/index.css" />
     <script src="main.js"></script>
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <p class="header__news">Breaking News!</p>
+      <nav class="header__navbar">
+        <div class="header__navbar__catagories">
+          <ul class="header__navbar__catagories__list">
+              <li class="header_navbar_categories_list_item"><a href="">Solutions</a></li>
+              <li class="header_navbar_categories_list_item"><a href="">Product</a></li>
+              <li class="header_navbar_categories_list_item"><a href="">Pricing</a></li>
+              <li class="header_navbar_categories_list_item"><a href="">Customers</a></li>
+              <li class="header_navbar_categories_list_item"><a href="">Resorces</a></li>
+            </ul>
+        </div>
+          <div class="header__navbar__contact">
+            <ul class="header__navbar__contact__list">
+              <li class="header__navbar__contact__list_item"><span>+01 888 888 888</span</li>
+              <li class="header__navbar__contact__list_item"><a>Contact Sales</a></li>
+              <li class="header__navbar__contact__list_item"><a>Company</a></li>
+              <li class="header__navbar__contact__list_item"><a>Careers</a></li>
+              <li class="header__navbar__contact__list_item"><label for="language">Language:</label>
+                <select id="cars">
+                  <option value="en-us">English</option>
+                  <option value="es">Spanish</option>
+                  <option value="pt">Portuguese</option>
+                </select></li>
+            </ul>
+          </div>
+      </nav>  
+    </header>
+    <main>
+      <div class="container content">
+        <div class="content__subscription">
+          <h1 class="content__subscription__title">Get a free publicity consultancy session for your business!</h1>
+          <div class="content__subscription__fields">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" value="Mary Smith">
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" value="mary@smith.com">
+            <label for="number">Phone number</label>
+            <input type="text" id="number" name="number" value="01 111 111 111">
+          </div>
+          <div class="content__subscription__button--confirm">
+            <input type="checkbox" id="confirm-subscription" name="confirm-subscription">
+              <label for="confirm-subscription">I wanna receive news about International Ready on my email!</label>
+            <button type="button">Get your session!</button>
+          </div>
+        </div>
+        <div class="content__offer">
+          
+        </div>
+      </div>
+      <div class="footer">
+        <span>©2010-2022 Internation Ready. All rights reserved.</span>
+      </div>
+    </main>
+  </body>
+  <script></script>
 </html>
