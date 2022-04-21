@@ -18,51 +18,81 @@
               <li class="header_navbar_categories_list_item"><a href="">Product</a></li>
               <li class="header_navbar_categories_list_item"><a href="">Pricing</a></li>
               <li class="header_navbar_categories_list_item"><a href="">Customers</a></li>
-              <li class="header_navbar_categories_list_item"><a href="">Resorces</a></li>
+              <li class="header_navbar_categories_list_item"><a href="">Resources</a></li>
             </ul>
         </div>
-          <div class="header__navbar__contact">
-            <ul class="header__navbar__contact__list">
-              <li class="header__navbar__contact__list_item"><span>+01 888 888 888</span</li>
-              <li class="header__navbar__contact__list_item"><a>Contact Sales</a></li>
-              <li class="header__navbar__contact__list_item"><a>Company</a></li>
-              <li class="header__navbar__contact__list_item"><a>Careers</a></li>
-              <li class="header__navbar__contact__list_item"><label for="language">Language:</label>
-                <select id="cars">
-                  <option value="en-us">English</option>
-                  <option value="es">Spanish</option>
-                  <option value="pt">Portuguese</option>
-                </select></li>
-            </ul>
-          </div>
       </nav>  
     </header>
     <main>
       <div class="container content">
         <div class="content__subscription">
           <h1 class="content__subscription__title">Get a free publicity consultancy session for your business!</h1>
-          <div class="content__subscription__fields">
+          <div class="content__subscription__items">
+          <div class="content__subscription__items__fields">
             <label for="name">Name</label>
             <input type="text" id="name" name="name" value="Mary Smith">
             <label for="email">Email</label>
             <input type="text" id="email" name="email" value="mary@smith.com">
             <label for="number">Phone number</label>
             <input type="text" id="number" name="number" value="01 111 111 111">
-          </div>
-          <div class="content__subscription__button--confirm">
+            <div class="content__subscription__items__button--confirm">
+              <button type="button">Get your session!</button>
+            </div>
+            <div class="content__subscription__items__check">
             <input type="checkbox" id="confirm-subscription" name="confirm-subscription">
-              <label for="confirm-subscription">I wanna receive news about International Ready on my email!</label>
-            <button type="button">Get your session!</button>
+            <label for="confirm-subscription">I wanna receive news about International Ready on my email!</label>
+            </div>  
           </div>
+          <div class="content__subscription__items__image">
+            <img height="100%" width="100%" src="/assets/consultancy.jpg">
+          </div>
+          </div>
+          
         </div>
         <div class="content__offer">
           
         </div>
       </div>
-      <div class="footer">
-        <span>©2010-2022 Internation Ready. All rights reserved.</span>
-      </div>
     </main>
+    <footer class="footer">
+      <section class="footer__about-container">
+        <p>
+          About
+        </p>
+        <a
+           href="#"
+           target="_blank"
+           class="footer__media-container__about-container"
+           >Lorem ipsum dolor sit amet, consectetur adipiscing elit</a>
+      </section>
+
+      <section>
+      <div class="header__navbar__contact">
+        <ul class="header__navbar__contact__list">
+          <li class="header__navbar__contact__list_item"><a>Contact Sales</a></li>
+          <li class="header__navbar__contact__list_item"><a>Company</a></li>
+          <li class="header__navbar__contact__list_item"><a>Careers</a></li>
+        </ul>
+      </div>
+    </section>
+
+      <section class="footer__media-container">
+        <p>Social Media</p>
+        <a
+           href="https://www.facebook.com/"
+           target="_blank"
+           class="footer__media-container__facebook-container"
+           ><img src="assets/facebook-icon.svg" alt="Facebook"
+        /></a>
+        <a
+           href="https://www.instagram.com/"
+           target="_blank"
+           class="footer__media-container__instagram-container"
+           ><img src="assets/instagram-icon.svg" alt="Instagram"
+        /></a>
+     </section>
+
+    </footer>
   </body>
   <script></script>
 </html>
